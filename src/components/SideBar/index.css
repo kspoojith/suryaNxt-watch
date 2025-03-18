@@ -1,0 +1,44 @@
+.desktop-sidebar {
+  min-width: 20%;
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+  height: 90vh;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .desktop-sidebar {
+    display: none;
+  }
+}
+
+.pages {
+  list-style-type: none;
+}
+
+.link-item {
+  display: flex;
+  align-items: center;
+}
+
+.link-icon {
+  font-size: 24px;
+  color: #606060;
+}
+
+.active-icon {
+  color: #ff0b37;
+}
+
+.contact-section {
+  padding-left: 30px;
+  width: 250px;
+}
+
+.media-icon {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}

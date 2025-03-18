@@ -1,0 +1,42 @@
+.login-logo {
+  width: 150px;
+  align-self: center;
+}
+
+.input-container {
+  margin-top: 40px;
+}
+
+.input {
+  border: 2px solid #cbd5e1;
+  width: 80%;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: 500;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.input-container2 {
+  margin-top: 20px;
+}
+
+.submit-btn {
+  background-color: #3b82f6;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  border: none;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .login-logo {
+    width: 120px;
+  }
+}
